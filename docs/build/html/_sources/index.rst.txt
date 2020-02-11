@@ -4,28 +4,30 @@
    contain the root `toctree` directive.
 
 Welcome to PARAM Stats documentation!
-=======================================
+=====================================
+
+Hello! This is the sample documentation for PARAM Stats!
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-#.. automodule:: PARAM-Stats-Env-Setup
+The "src" module
+----------------
+
+.. automodule:: src.main
+   :members:
+
+The "tests" module
+------------------
+
+.. automodule:: tests.test_main
+   :members:
+
 
 
 Indices and tables
 ==================
-
-Source
-======
-.. automodule:: src.main
-   :members:
-
-Tests
-=====
-.. automodule:: tests.test_main
-   :members:
-
 
 * :ref:`genindex`
 * :ref:`modindex`
