@@ -1,0 +1,12 @@
+PRODUCER keyed-message
+topic: FirstKafkaTopic
+key: mykeyq
+record content
+
+###
+
+PRODUCER non-keyed-json-message
+topic: FirstKafkaTopic
+{
+    "type": "my_test_event"
+}
