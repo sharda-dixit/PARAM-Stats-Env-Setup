@@ -23,3 +23,4 @@ def dec(x):
     return x-1
 
 print ("Hello!")
+print("123")
