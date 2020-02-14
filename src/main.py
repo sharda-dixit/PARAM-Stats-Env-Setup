@@ -24,3 +24,14 @@ def dec(x):
 
 print ("Hello!")
 print("123")
+
+def square(x):
+    """This functuin return the square value
+    
+    Arguments:
+        x {[type]} -- [description]
+    
+    Returns:
+        [type] -- [description]
+    """    
+    return x*x
