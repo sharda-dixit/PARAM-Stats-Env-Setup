@@ -1,3 +1,6 @@
+import os
+print (os.getcwd())
+
 def inc(x):
     """An incremental function
     
