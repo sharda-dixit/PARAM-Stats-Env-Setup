@@ -1,5 +1,7 @@
 import os, sys
-sys.path.insert(1, os.path.abspath('.'))
+#sys.path.insert(1, os.path.abspath('.'))
+sys.path.insert(1, os.getcwd())
+
 from src import main
 
 def test_inc():
