@@ -25,7 +25,7 @@ def dec(x):
     """    
     return x-1
 
-print ("Hello!")
+print ("Hello!!")
 print("123")
 
 def square(x):
